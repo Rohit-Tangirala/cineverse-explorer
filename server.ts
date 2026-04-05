@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000;
 
   app.use(express.json());
 
@@ -79,18 +79,10 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, "0.0.0.0", async () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-    
-    // Seed data on startup if needed
-    try {
-      console.log("Checking database for seeding...");
-      await seedData();
-      console.log("Seeding check complete.");
-    } catch (error) {
-      console.error("Error during seeding:", error);
-    }
-  });
+ app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
 }
 
 startServer();
