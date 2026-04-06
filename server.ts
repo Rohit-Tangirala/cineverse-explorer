@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 import { characterRouter } from "./src/backend/controllers/CharacterController.ts";
 import { authRouter } from "./src/backend/controllers/AuthController.ts";
 import { seedData } from "./src/backend/services/DataSeeder.ts";
-
+import axios from 'axios';
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
@@ -21,7 +21,27 @@ async function startServer() {
   // API Routes
   app.use("/api/characters", characterRouter);
   app.use("/api/auth", authRouter);
-
+  
+  app.get('/api/proxy-image', async (req, res) => {
+  try {
+    const imageUrl = req.query.url as string;
+    if (!imageUrl) return res.status(400).send('No URL');
+    
+    const response = await axios.get(imageUrl, {
+      responseType: 'arraybuffer',
+      headers: {
+        'Referer': 'https://myanimelist.net',
+        'User-Agent': 'Mozilla/5.0'
+      }
+    });
+    
+    res.set('Content-Type', response.headers['content-type']);
+    res.set('Cache-Control', 'public, max-age=86400');
+    res.send(response.data);
+  } catch (error) {
+    res.status(404).send('Image not found');
+  }
+});
   // Debug endpoint (as requested)
   app.get("/api/debug", async (req, res) => {
     const { CharacterRepository } = await import("./src/backend/repositories/CharacterRepository.ts");

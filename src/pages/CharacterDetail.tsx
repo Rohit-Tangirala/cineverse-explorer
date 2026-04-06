@@ -134,7 +134,7 @@ export default function CharacterDetail() {
         >
           <div className="relative group">
             <img 
-              src={character.imageUrl || `https://ui-avatars.com/api/?name=${character.name}&size=512&background=random`} 
+              src={character.imageUrl ? `/api/proxy-image?url=${encodeURIComponent(character.imageUrl)}` : ''}
               alt={character.name}
               className="w-full aspect-square object-cover rounded-2xl border-4 border-white/5 shadow-2xl"
               referrerPolicy="no-referrer"
