@@ -48,7 +48,7 @@ export async function fetchSuperheroCharacters(onCharacterFetched?: (char: any) 
           .map(([stat, value]) => `${stat}: ${value}`)
           .join(", "),
         firstAppearance: data.biography["first-appearance"] !== "-" ? data.biography["first-appearance"] : "Unknown",
-        imageUrl: data.image.url || null,
+        imageUrl: data.image.url ? data.image.url.replace('http://', 'https://') : null,
         arcNumber: 1,
         arcName: "Main Story"
       };
