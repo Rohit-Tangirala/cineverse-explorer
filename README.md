@@ -308,85 +308,6 @@ npm start
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-### 🏠 Interactive Graph Visualization
-> **Explore 1,728 characters across 4 universes with physics-based network rendering**
-
-<img src="https://via.placeholder.com/900x500/0f172a/8b5cf6?text=Universe+Graph+with+vis-network+%7C+Color-coded+by+Role+%7C+Physics+Simulation" alt="Graph View" width="90%">
-
-*Nodes colored by role: 🟢 Heroes | 🔴 Villains | 🟡 Antiheroes | Edges: 💚 Allied | ❤️ Enemy*
-
----
-
-### 🛡️ Spoiler Control System
-> **Dynamic arc-based filtering prevents spoilers for new fans**
-
-<img src="https://via.placeholder.com/900x500/0f172a/ec4899?text=Spoiler+Control+Slider+%7C+Filter+by+Story+Arc+%7C+Safe+Exploration" alt="Spoiler Control" width="90%">
-
-*Adjust the arc slider to show only characters from arcs you've watched*
-
----
-
-### 🔍 Relationship Path Finder
-> **BFS algorithm finds shortest connection between any two characters**
-
-<img src="https://via.placeholder.com/900x500/0f172a/10b981?text=Path+Finder+%7C+BFS+Algorithm+%7C+Character+Connections" alt="Path Finder" width="90%">
-
-*Example: Black Widow → Iron Man → Thanos → Thor (3 steps)*
-
----
-
-### 👤 Character Profile Pages
-> **Detailed information with allies, enemies, powers, and AI chat**
-
-<img src="https://via.placeholder.com/900x500/0f172a/f59e0b?text=Character+Profile+%7C+Bio+%7C+Powers+%7C+Relationships+%7C+AI+Chat" alt="Character Profile" width="90%">
-
-*Full biography, power stats, team affiliations, and AI-powered character conversations*
-
----
-
-### 📊 Statistics Dashboard
-> **Analytics across all universes with interactive charts**
-
-<img src="https://via.placeholder.com/900x500/0f172a/6366f1?text=Statistics+Dashboard+%7C+Universe+Analytics+%7C+Charts+%26+Metrics" alt="Stats Dashboard" width="90%">
-
-*Universe distribution, role breakdown, most connected characters, and more*
-
----
-
-### 🎯 Character Comparison
-> **Side-by-side analysis of any two characters**
-
-<img src="https://via.placeholder.com/900x500/0f172a/14b8a6?text=Character+Comparison+%7C+Side-by-Side+Analysis+%7C+Powers+%26+Stats" alt="Comparison" width="90%">
-
----
-
-### 📱 Fully Responsive Design
-
-<table align="center">
-<tr>
-<td width="30%">
-<img src="https://via.placeholder.com/300x600/0f172a/8b5cf6?text=Mobile+View" alt="Mobile">
-<p align="center"><strong>Mobile</strong></p>
-</td>
-<td width="35%">
-<img src="https://via.placeholder.com/400x600/0f172a/8b5cf6?text=Tablet+View" alt="Tablet">
-<p align="center"><strong>Tablet</strong></p>
-</td>
-<td width="35%">
-<img src="https://via.placeholder.com/500x350/0f172a/8b5cf6?text=Desktop+View" alt="Desktop">
-<p align="center"><strong>Desktop</strong></p>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
 ## 🔌 API Documentation
 
 ### 🔐 Authentication Endpoints
@@ -812,11 +733,11 @@ Open an issue with:
 
 <div align="center">
 
-| ![Rohit](https://github.com/Rohit-Tangirala.png?size=100) | ![Meghamsh](https://via.placeholder.com/100/8b5cf6/ffffff?text=MA) | ![Thanveesh](https://via.placeholder.com/100/10b981/ffffff?text=ST) | ![Nishanth](https://via.placeholder.com/100/f59e0b/ffffff?text=TN) |
+| ![Rohit](https://github.com/Rohit-Tangirala.png?size=100) | ![Meghamsh](https://github.com/Noyoucringepng?size=100) | ![Thanveesh](https://github.com/thanveesh.png?size=100) | ![Nishanth](https://github.com/Nishanth2468.png?size=100) | ![Bharath](https://github.com/PSRBharath.png?size=100) |
 |:---:|:---:|:---:|:---:|
-| **[T.G.S.S. Rohit](https://github.com/Rohit-Tangirala)** | **P. Meghamsh Anirudh** | **S. Thanveesh** | **T. Nishanth** |
-| 2410030030 | 2410030128 | 2410030419 | 2410030462 |
-| Lead Developer | Backend Developer | Frontend Developer | Database Designer |
+| **[T.G.S.S. Rohit](https://github.com/Rohit-Tangirala)** | **P. Meghamsh Anirudh** | **S. Thanveesh** | **T. Nishanth** | **P. Srirama-Bharath** |  
+| 2410030030 | 2410030128 | 2410030419 | 2410030462 | 2410030129 |
+| Lead Developer | Backend Developer | Frontend Developer | Database Designer | API Provider |
 
 **Mentor:** Dr. P. Ratna Kumar  
 **Institution:** KL University, Department of Computer Science and Engineering  
